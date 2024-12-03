@@ -30,7 +30,7 @@ public class Car
 
     public Car()
     {
-        
+        CarLot.NumberOfCars++;
     }
 
     public Car(string make, string model, int year, bool isDriveable)
